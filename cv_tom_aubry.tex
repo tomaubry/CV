@@ -1,0 +1,175 @@
+\documentclass{article}
+
+\usepackage{titling}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{cellspace}
+\usepackage{booktabs}
+
+% En tete de ton CV, le poste que tu recherches
+\title{Tom Aubry}
+\date{}
+
+\geometry{
+    top=1.7cm,
+    bottom=1.7cm,
+    left=2cm,
+    right=2cm
+}
+\pagestyle{empty} % Retire la pagination
+\setlist[itemize]{itemsep=0pt} % Espace entre les items dans une liste
+\setlength{\droptitle}{-5em} % Ajuster la valeur pour augmenter / diminuer le spacing dans le document
+
+\begin{document}
+\maketitle
+\thispagestyle{empty} % Retirer le numéro de la premiere page
+\vspace{-6,5em}
+
+% Dans cette section, numéro de telephone, email, liens vers linkedin et github et ma ville de recherche
+\begin{center}
++33 6 95 91 26 34 | \href{mailto:tomaubry@live.fr}{\underline{tomaubry@live.fr}} | \href{www.linkedin.com/in/tom-aubry-85b024209}{\underline{linkedin.com/tom-aubry/}} | \href{ https://github.com/tomaubry}{\underline{github.com/tomaubry}}
+\end{center}
+\begin{center}
+\textbf{Angers, France}
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Phrase d'intro qui donne mon expertise
+\begin{center}
+Diplômé Bac+5 en ingénierie informatique avec une spécialisation en IA, j’ai acquis plusieurs années d’expérience en développement et en data (3 ans d’alternance). Passioné, j'appronfondis mes compétences pour me spécialiser en Data Engineering.
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tables des compétences
+\section*{Compétences}
+
+\begin{tabularx}{\textwidth}{@{}lX@{}}
+
+  \textbf{Programmation} & POO, Programmation avancée, Tests unitaires, CI/CD, Documentation technique \\
+  \addlinespace[5pt] % Add margin below this row
+
+  \textbf{Langages} & Python, SQL, Bash, Javascript, Kotlin, C \\
+  \addlinespace[5pt] % Add margin below this row
+
+  \textbf{Big Data et Bases de données} & SQL, MongoDB, ElasticSearch, Neo4j, HBase, Redis, Cassandra, Snowflake, Data Warehousing (DBT, ELT), Pandas \\
+  \addlinespace[5pt] % Add margin below this row
+
+  \textbf{Traitement des données et Streaming} & Jupyter Notebooks, PySpark, Kafka, Streaming avec Spark, ETL/ELT \\
+  \addlinespace[5pt] % Add margin below this row
+
+  \textbf{Cloud et DevOps} & AWS, Docker, FastAPI, Git, GitHub, GitLab, Jenkins \\
+  \addlinespace[5pt] % Add margin below this row
+
+  \textbf{Business Intelligence et Outils Low Code} & Power Apps, Power Automate, Power BI, Bubble.io \\
+  \addlinespace[5pt] % Add margin below this row
+
+  \textbf{Méthodes de gestion de projet} & Kanban, SCRUM, Agile \\
+  \addlinespace[5pt] % Add margin below this row
+
+  \textbf{Langues} & Français (natif), Anglais (B2)
+\end{tabularx}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{4ex}
+\hrulefill
+\section*{Expériences}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% EXPERIENCE 1
+%%
+\paragraph{Développeur décisionnel Power Platform}\hspace*{\fill}août 2021 - oct. 2024
+
+\noindent
+Vendée Expansion | La Roche-sur-Yon, Pays de la Loire, France
+
+\raggedright
+\begin{itemize}
+  \item Développement d'applications métier avec Power Platform (Power Apps, Power BI, Power Automate).
+  \item Mise en place d'ERP (Yooz), gestion de la conformité des traitements et de la qualité des données, déploiement en production, suivi des évolutions, ainsi que formations et conduite du changement.
+  \item Gestion des données JSON : agrégation, traitement des flux JSON, puis envoi automatisé des données vers un serveur FTP.
+  \item Création de scripts (Bash, PowerShell, Python) et rédaction de documentation technique.
+\end{itemize}
+
+
+%% 
+%% STOP EXPERIENCE 1
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 
+%% EXPERIENCE 2
+%%
+\paragraph{Stage - Technicien Informatique - Migration ERP vers SAP}\hspace*{\fill}avr. 2021 - mai 2021
+
+\noindent
+Simpson Strong-Tie | Luçon, Pays de la Loire, France
+
+\raggedright  
+\begin{itemize}
+  \item{Maintenance des postes de travail, gestion des incidents et support technique aux utilisateurs.}
+  \item{Participation à l'assistance lors de la migration ERP vers SAP, gestion des mises à jour et résolution de problèmes liés aux données.}
+\end{itemize}
+%% 
+%% STOP EXPERIENCE 2
+%%
+
+\paragraph{Projet tutoré : Vendee Metiers}\hspace*{\fill}avr. 2020 - mai 2020
+
+\noindent
+Vendée Metiers | La Roche-sur-Yon, Pays de la Loire, France
+
+\raggedright  
+\begin{itemize}
+  \item{Le salon Vendée-Métiers accueille plus de 12 000 personnes chaque années}
+  \item{Création et développement d'un site web dynamique en utilisant HTML, CSS, JavaScript, PHP et MySQL.}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{2ex}
+\hrulefill
+\section*{Formation}
+\paragraph{EPSI - L'école d'ingénierie informatique | Bordeaux, France }\hspace*{\fill}2022 - 2024
+\vspace{\baselineskip}
+
+\textbf{BAC+5, Spécialité IA :} Piloter l’informatique décisionnelle d’un S.I. (big data et business intelligence). Concevoir et développer des solutions applicatives métier et spécifiques (mobiles et embarquées). Manager avec agilité un projet informatique en collaboration avec les parties prenantes.Concevoir et sécuriser des solutions d’infrastructure virtualisées et en cloud
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\paragraph{Licence Professionnelle DIP | IUT de La Roche-sur-Yon, France }\hspace*{\fill}2021 - 2022
+\vspace{\baselineskip}
+
+\textbf{Bac+3 :} Développement d'applications (Java, Python, SQL, Web), Administration des systèmes (Linux, Windows Server, Virtualisation, Sécurité), Réseaux (Protocoles, Sécurité des réseaux, Cloud), Gestion de projets (Méthodes Agile, Scrum)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\paragraph{DUT - Réseaux et Télécommunications | IUT de La Roche-sur-Yon, France }\hspace*{\fill}2019 - 2021
+\vspace{\baselineskip}
+
+\textbf{BAC+2 :} Programmation (C, Python, SQL, Bash, PHP), Systèmes (Administration, Virtualisation, Sécurité, Haute disponibilité), Réseaux (Internet, Sécurité, Réseaux sans fil), Sciences (Mathématiques, Physique, Électronique)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{2ex}
+\hrulefill
+
+\section*{Centres d'interet}
+\begin{itemize}
+  \item 6 ans de Judo, 2 ans de MMA, 1 an de JJB.
+  \item Entreprenariat (Projet de création d'un SaaS avec un associé autour de l'IA -  Juillet 2025
+\end{itemize}
+\end{document}
